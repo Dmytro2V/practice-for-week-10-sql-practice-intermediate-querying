@@ -1,3 +1,5 @@
+.print ============ STARTING DB and table albums =====================
+.open practice.db
 DROP TABLE IF EXISTS albums;
 CREATE TABLE albums (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
